@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * main - Prints _putchar
- *is written by yinka
+ * is written by yinka
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 _putchar('_');
