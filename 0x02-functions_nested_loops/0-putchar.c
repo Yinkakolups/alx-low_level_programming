@@ -4,15 +4,14 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+int main (void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, sz;
+	char text[9] = "_putchar";
+	int i = 0;
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(str[count]);
+		_putchar(text[i]);
 	}
 	_putchar('\n');
 	return (0);
